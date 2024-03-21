@@ -1,0 +1,35 @@
+.zeitvorschau-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.filter-container {
+  margin-bottom: 20px;
+}
+
+.work-entries-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.work-entries-table th,
+.work-entries-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.work-entries-table th {
+  background-color: #f2f2f2;
+}
+
+.work-entries-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.work-entries-table tr:hover {
+  background-color: #f2f2f2;
+}
